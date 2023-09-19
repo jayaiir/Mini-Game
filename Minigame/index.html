@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space Collector</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Space Collector</h1>
+    <p>Navigate your <span id="spaceship"> spaceship </span> using the arrow keys, avoid asteroids and collect <span id="items">items</span> to win. Colliding with an <span id="asteroid">asteroid</span> will result in loss of a life. Game ends when all lives are lost or you collect all items. Good Luck Pilot!</p>
+    <div id="status">
+        <div id="score">Items Collected: 0</div>
+        <div id="lives">Lives: 3</div>
+    </div>
+    <div id="popup" style="display: none;">
+        <div id="message"></div>
+        <button id="restart">Restart Game</button>
+    </div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+body {
+    background: #E0E0E0;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p #items {
+    color: green;
+    font-weight: bold;
+}
+
+p #spaceship {
+    color: red;
+    font-weight: bold;
+}
+
+p #asteroid {
+    color: grey;
+    font-weight: bold;
+}
+
+#gameCanvas {
+    border: 1px solid #9E9E9E;
+    margin-bottom: 20px;
+}
+
+#score, #lives {
+    font-weight: bold;
+}
+
+#status {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+#popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#message {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+#restart {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 10px 24px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+    font-family: 'Roboto', sans-serif;
+}
+
+#restart:hover {
+    background-color: #303f9f;
+}
+
+#restart:active {
+    background-color: #283593;
+    box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2), 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12);
+}
